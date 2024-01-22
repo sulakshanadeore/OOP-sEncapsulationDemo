@@ -14,12 +14,15 @@ namespace EncapsulationLibraryDemo
       private static int _prodid;//best coding practices--variable
 
         public int ProductId {
-
+         //read only property
             get {
                 _prodid = _prodid + 1;
                 return _prodid; }
         }
 
+
+
+        //set---write & get--- read , property 
         //public int ProductId //property
         //{
         //writing/assinging value to the variable
